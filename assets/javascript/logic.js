@@ -1,4 +1,5 @@
 $(document).ready(function(){
     $('.scrollspy').scrollSpy();
-    $('.sidenav').sidenav(); 
+    $('.sidenav').sidenav();
+    $('.modal').modal(); 
   });

@@ -7,16 +7,37 @@ body {
     padding: 0;
 }
 
+h3 {
+    font-family: 'ubuntu', Sans-Serif;
+    color: #333333;
+    font-weight: bolder;
+}
+
 h4, h2{
     font-family: 'ubuntu', Sans-Serif;
-    color: #f86869;
+    color: #f67b44;
     font-weight: bolder;
-    text-shadow: .5px .5px .5px #8e2f2f;
+    /* text-shadow: .5px .5px .5px #8e2f2f; */
+}
+
+#modal-text {
+    font-family: 'ubuntu', Sans-Serif;
+    color: #333333;
+    font-size: 1.5em;
 }
 
 nav {
     font-family: 'ubuntu', Sans-Serif;
     font-weight: bolder; 
+}
+
+.modal-content, .modal-footer {
+    padding: 50px 75px 50px 50px !important;
+    background-image: linear-gradient(to right, #b4def4, #e2d6f7) !important;
+}
+
+.modal {
+    border-radius: 35px !important;
 }
 
 /* footer {
@@ -31,7 +52,8 @@ a.sidenav-trigger {
 }
 
 a.brand-logo.left {
-    color: #121212;
+    /* color: #121212; */
+    color: #f67b44;
 }
 
 nav ul li a{
@@ -71,7 +93,7 @@ nav ul li a{
 #section-4 {
     background-color: #c9c2f3;
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 100px 0 100px 0;
 }
 
 svg {
@@ -90,11 +112,17 @@ svg {
   }
 
   .btn , .btn-small, .btn-large{
-    background-color: #f86869 !important;
+    background-color: #f67b44 !important;
     border-radius: 25px !important;
 }
 
+#footer-title {
+    color: #333333;
+}
 
+.sm-icon {
+    padding: 0 5px 0 5px;
+}
 
 /* Hero video background settings */
 .bg-video-wrap {
@@ -117,9 +145,12 @@ video {
     position: absolute;
     top: 0;
     left: 0;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10%;
     /* background: rgba(103, 102, 103, 0.5);
     background-size: 3px 3px; */
-    /* z-index: 2; */
+    z-index: 2;
 }
 
 h1 {
@@ -127,31 +158,31 @@ h1 {
     font-size: 5.5em !important;
     font-weight: bolder;
     /* text-shadow: .5px .5px 2px #403a4b; */
-    text-align: left;
+    /* text-align: left;*/
     color: #333333;
-    position: absolute;
+    /*position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    z-index: 3;
+    z-index: 3; */
     /* max-width: 400px; */
-    width: 100%;
+    /* width: 100%;
     height: 50px;
     padding-top: 100px;
-    padding-left: 75px;
+    padding-left: 75px; */
 }
 
 #button {
-    text-align: left;
-    padding-left: 75px;
-    padding-top: 25px;
+    /* text-align: left; */
+    /* padding-left: 75px;*/
+    padding-top: 30px; 
 }
 
 #subtitle {
-   text-align: left;
-   margin-top: 43%;
+   /* text-align: left; */
+   /* margin-top: 43%; */
    font-size: 1.75em;
-   padding-left: 75px;
+   /* padding-left: 75px; */ 
 }
