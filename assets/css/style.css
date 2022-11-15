@@ -15,7 +15,7 @@ h3 {
 
 h4, h2{
     font-family: 'ubuntu', Sans-Serif;
-    color: #f67b44;
+    color: #333333;
     font-weight: bolder;
     /* text-shadow: .5px .5px .5px #8e2f2f; */
 }
@@ -33,7 +33,7 @@ nav {
 
 .modal-content, .modal-footer {
     padding: 50px 75px 50px 50px !important;
-    background-image: linear-gradient(to right, #b4def4, #e2d6f7) !important;
+    background-image: linear-gradient(to right, #ffffff, #f1ebfb) !important;
 }
 
 .modal {
@@ -66,14 +66,19 @@ nav ul li a{
 }
 
 #section-1 {
+    text-align: center;
     background-color: #ffffff;
 }
 
 #section-2 {
-    background-color: #b2def3;
+    text-align: center;
+    /* background-color: #b2def3; */
+    /* background-color: #0099cc; */
+    background-color: #33ccff;
 }
 
 #section-3 {
+    text-align: center;
     background-color: #ffffff;
 }
 
@@ -101,7 +106,20 @@ svg {
   .btn , .btn-small, .btn-large{
     background-color: #f67b44 !important;
     border-radius: 25px !important;
+    width: 200px !important;
 }
+
+#button {
+    /* text-align: left; */
+    /* padding-left: 75px;*/
+    padding-top: 30px; 
+}
+
+.price-btns {
+    /* width: 500px !important; */
+}
+
+
 
 #footer-title {
     color: #333333;
@@ -110,6 +128,26 @@ svg {
 .sm-icon {
     padding: 0 5px 0 5px;
 }
+
+#price-cards {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.card-content {
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+
+.card {
+    width: 200px;
+    text-align: center;  
+}
+
 
 /* Hero video background settings */
 .bg-video-wrap {
@@ -161,11 +199,7 @@ h1 {
     padding-left: 75px; */
 }
 
-#button {
-    /* text-align: left; */
-    /* padding-left: 75px;*/
-    padding-top: 30px; 
-}
+
 
 #subtitle {
    /* text-align: left; */
