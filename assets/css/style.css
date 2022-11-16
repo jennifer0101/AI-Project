@@ -7,51 +7,12 @@ body {
     padding: 0;
 }
 
-h3 {
-    font-family: 'ubuntu', Sans-Serif;
-    color: #333333;
-    font-weight: bolder;
-}
 
-h4, h2{
-    font-family: 'ubuntu', Sans-Serif;
-    color: #333333;
-    font-weight: bolder;
-    /* text-shadow: .5px .5px .5px #8e2f2f; */
-}
-
-.dollars {
-    font-size: 30px;
-    font-weight: bolder;
-    padding-bottom: 20px;
-}
-
-#modal-text {
-    font-family: 'ubuntu', Sans-Serif;
-    color: #333333;
-    font-size: 1.5em;
-}
-
+/* Nav Bar */
 nav {
     font-family: 'ubuntu', Sans-Serif;
     font-weight: bolder; 
 }
-
-.modal-content, .modal-footer {
-    padding: 50px 75px 50px 50px !important;
-    background-image: linear-gradient(to right, #ffffff, #f1ebfb) !important;
-}
-
-.modal {
-    border-radius: 35px !important;
-}
-
-/* footer {
-    color: #121212;
-    Font-Family: 'open sans', Sans-Serif;
-    Font-Size: 15px;
-} */
-
 
 a.sidenav-trigger {
     color: #121212;
@@ -71,98 +32,48 @@ nav ul li a{
     padding-left: 75px;
 }
 
-#section-1 {
-    text-align: center;
-    background-color: #ffffff;
+
+/* General Settings */
+h3 {
+    font-family: 'ubuntu', Sans-Serif;
+    color: #333333;
+    font-weight: bolder;
 }
 
-#section-2 {
-    text-align: center;
-    /* background-color: #b2def3; */
-    /* background-color: #0099cc; */
-    background-color: #33ccff;
+h4, h2{
+    font-family: 'ubuntu', Sans-Serif;
+    color: #333333;
+    font-weight: bolder;
 }
 
-#section-3 {
-    text-align: center;
-    background-color: #ffffff;
-}
-
-#section-4 {
-    background-color: #c9c2f3;
-    text-align: center;
-    padding: 100px 0 100px 0;
-}
-
-svg {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .wave {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    padding-bottom: 30%;
-    vertical-align: middle;
-    overflow: hidden;
-  }
-
-  .btn , .btn-small, .btn-large{
+.btn , .btn-small, .btn-large{
     background-color: #f67b44 !important;
     border-radius: 25px !important;
 }
 
+
+/* Hero Section */
 #button {
     padding-top: 30px; 
 }
 
-.price-btns {
-    position: absolute;
-    width: 100%;
-    left: 0%;
-    bottom: 5%;
-  }
 
-
-
-
-#footer-title {
-    color: #333333;
+/* Modal */
+.modal {
+    border-radius: 35px !important;
 }
 
-.sm-icon {
-    padding: 0 5px 0 5px;
+.modal-content, .modal-footer {
+    padding: 50px 75px 50px 50px !important;
+    background-image: linear-gradient(to right, #ffffff, #f1ebfb) !important;
 }
 
-#price-cards {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    height: 300px;
-    border-radius: 25px;
-}
-
-.card-title {
+#modal-text {
     font-family: 'ubuntu', Sans-Serif;
+    color: #333333;
+    font-size: 1.5em;
 }
 
-.card-content {
-    padding-left: 50px;
-    padding-right: 50px; 
-}
-
-.card {
-    /* width: 300px; */
-    text-align: center; 
-    position: absolute; 
-}
-
-#card-row {
-    padding-top: 50px;
-}
 
 /* Hero video background settings */
 .bg-video-wrap {
@@ -188,8 +99,6 @@ video {
     text-align: left;
     padding-left: 5%;
     padding-top: 10%;
-    /* background: rgba(103, 102, 103, 0.5);
-    background-size: 3px 3px; */
     z-index: 2;
 }
 
@@ -197,28 +106,122 @@ h1 {
     Font-Family: 'ubuntu', Sans-Serif;
     font-size: 5.5em !important;
     font-weight: bolder;
-    /* text-shadow: .5px .5px 2px #403a4b; */
-    /* text-align: left;*/
     color: #333333;
-    /*position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    z-index: 3; */
-    /* max-width: 400px; */
-    /* width: 100%;
-    height: 50px;
-    padding-top: 100px;
-    padding-left: 75px; */
 }
-
-
 
 #subtitle {
-   /* text-align: left; */
-   /* margin-top: 43%; */
-   font-size: 1.75em;
-   /* padding-left: 75px; */ 
+    font-size: 1.75em;
+ }
+
+
+ /* Services section */
+#services-sctn {
+    text-align: center;
+    background-color: #ffffff;
 }
+
+
+/* Pricing section */
+#pricing-sctn {
+    text-align: center;
+    background-color: #33ccff;
+}
+
+#pricing {
+    /* margin-top: -100px; */
+}
+
+.price-btns {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: 5%;
+}
+
+svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.wave {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 30%;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-top: -200px;
+}
+
+.card {
+    text-align: center; 
+    position: absolute;
+    z-index: 4; 
+}
+
+#price-cards {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.card-title {
+    font-family: 'ubuntu', Sans-Serif;
+}
+
+.card-content {
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+
+#card-row {
+    padding-top: 50px;
+}
+
+.dollars {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+
+/* About section */
+#about-sctn {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#about {
+    /* margin-top: -100px; */
+    /* padding-top: -200px; */
+}
+
+
+/* Contact section/footer  */
+#contact-sctn {
+    background-color: #c9c2f3;
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+#footer-title {
+    color: #333333;
+}
+
+.sm-icon {
+    padding: 0 5px 0 5px;
+}
+
+
+
+
+
+
+
+
+
