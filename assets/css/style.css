@@ -20,6 +20,12 @@ h4, h2{
     /* text-shadow: .5px .5px .5px #8e2f2f; */
 }
 
+.dollars {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
 #modal-text {
     font-family: 'ubuntu', Sans-Serif;
     color: #333333;
@@ -106,18 +112,19 @@ svg {
   .btn , .btn-small, .btn-large{
     background-color: #f67b44 !important;
     border-radius: 25px !important;
-    width: 200px !important;
 }
 
 #button {
-    /* text-align: left; */
-    /* padding-left: 75px;*/
     padding-top: 30px; 
 }
 
 .price-btns {
-    /* width: 500px !important; */
-}
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: 5%;
+  }
+
 
 
 
@@ -133,9 +140,13 @@ svg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 85%;
     height: 300px;
     border-radius: 25px;
+}
+
+.card-title {
+    font-family: 'ubuntu', Sans-Serif;
 }
 
 .card-content {
@@ -144,10 +155,14 @@ svg {
 }
 
 .card {
-    width: 200px;
-    text-align: center;  
+    /* width: 300px; */
+    text-align: center; 
+    position: absolute; 
 }
 
+#card-row {
+    padding-top: 50px;
+}
 
 /* Hero video background settings */
 .bg-video-wrap {
