@@ -1,8 +1,8 @@
 body {
   font-family: "open sans", Serif;
-  font-size: 15px;
-  color: #121212;
-  line-height: 1.5;
+  font-size: 18px;
+  color: #2e2e2e;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
 }
@@ -14,7 +14,7 @@ nav {
 }
 
 a.sidenav-trigger {
-  color: #121212;
+  color: #2e2e2e;
 }
 
 a.brand-logo.left {
@@ -22,7 +22,7 @@ a.brand-logo.left {
 }
 
 nav ul li a {
-  color: #121212;
+  color: #2e2e2e;
 }
 
 #logo {
@@ -39,8 +39,17 @@ h3 {
 h4,
 h2 {
   font-family: "ubuntu", Sans-Serif;
-  color: #333333;
+  color: #2e2e2e;
   font-weight: bolder;
+}
+
+h5 {
+    line-height: 1.4 !important;
+}
+
+.c-sub {
+    margin: auto;
+    width: 60%;
 }
 
 .btn,
@@ -50,7 +59,11 @@ h2 {
   border-radius: 25px !important;
 }
 
-/* Hero Section */
+/* Hero/home Section */
+#home {
+    padding-bottom: 100px;
+}
+
 #button {
   padding-top: 30px;
 }
@@ -68,7 +81,7 @@ h2 {
 
 #modal-text {
   font-family: "ubuntu", Sans-Serif;
-  color: #333333;
+  color: #2e2e2e;
   font-size: 1.5em;
 }
 
@@ -103,7 +116,7 @@ h1 {
   font-family: "ubuntu", Sans-Serif;
   font-size: 5.5em !important;
   font-weight: bolder;
-  color: #333333;
+  color: #2e2e2e;
 }
 
 #subtitle {
@@ -114,6 +127,23 @@ h1 {
 #services-sctn {
   text-align: center;
   background-color: #ffffff;
+}
+
+#top-serv {
+    padding-top: 100px;
+}
+
+.section-btn {
+    padding-top: 25px;
+}
+
+.just-l {
+    text-align: left;
+}
+
+#woman {
+    margin-top: 50px;
+    border-radius: 25px;
 }
 
 /* Pricing section */
@@ -152,18 +182,14 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 85%;
-  height: 300px;
+  width: 88%;
+  height: 330px;
   border-radius: 25px;
 }
 
 .card-title {
   font-family: "ubuntu", Sans-Serif;
-}
-
-.card-content {
-  padding-left: 50px;
-  padding-right: 50px;
+  font-size: 30px !important;
 }
 
 #card-row {
@@ -171,7 +197,7 @@ h1 {
 }
 
 .dollars {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
   padding-bottom: 20px;
 }
@@ -180,6 +206,11 @@ h1 {
 #about-sctn {
   text-align: center;
   background-color: #ffffff;
+}
+
+#peeps {
+    margin-top: 0px;
+    border-radius: 25px;
 }
 
 /* Contact section/footer  */
