@@ -2,7 +2,7 @@
 
 ## General Info
 
-[Occupation](https://jennifer0101.github.io/AI-Project/) is a demonstration website to showcase a business style with bright colors and futuristic elements designed with the Materialize framework. The website features one page that scrolls to different sections using the navigation bar links at the top. It has a focus on user experience and user interface and is fully mobile responsive.  
+[Occupation](https://jennifer0101.github.io/AI-Project/) is a demonstration website to showcase a business style with bright colors and futuristic elements designed with the Materialize framework. The website features one page that scrolls to different sections using the navigation bar links at the top, a video hero section on the desktop view, and CSS SVG wavy section dividing lines. It has a focus on user experience and user interface and is fully mobile responsive.  
 
 ![](assets/images/Screen_Options.png)
 
